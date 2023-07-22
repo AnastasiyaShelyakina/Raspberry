@@ -1,10 +1,10 @@
 {
- "name": "Raspberry",
- "description": "Капкейки с любовью",
- "start_url": ".",
- "lang": "ru",
- "display": "standalone",
- "icons": [
+"name": "Raspberry",
+"description": "Капкейки с любовью",
+"start_url": ".",
+"lang": "ru",
+"display": "standalone",
+"icons": [
   {
    "src": "\/android-icon-36x36.png",
    "sizes": "36x36",
