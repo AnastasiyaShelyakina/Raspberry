@@ -3,7 +3,7 @@
  "description": "Капкейки с любовью",
  "start_url": ".",
  "lang": "ru",
- "display": "standalone"
+ "display": "standalone",
  "icons": [
   {
    "src": "\/icons/android-icon-36x36.png",
