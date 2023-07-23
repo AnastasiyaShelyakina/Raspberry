@@ -37,14 +37,3 @@ document.getElementById('contact-form').addEventListener('submit', function(even
   // Отправка данных на сервер
   // Здесь можно добавить код для обработки отправки данных на сервер
 });
-
-window.addEventListener('load', async () => {
-if ('serviceWorker' in navigator) {
-try {
-const reg = await navigator.serviceWorker.register('sw.js')
-console.log('Service worker register success', reg)
-} catch (e) {
-console.log('Service worker register fail')
-}
-}
-})
