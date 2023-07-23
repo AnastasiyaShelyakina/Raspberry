@@ -2,7 +2,7 @@
   {
   width: 100%;
   height: 100%;
-  background-image: url("images/капкейк1.png");
+  background-image: url(images/Слайд1.jpg);
   }
 
 table{
@@ -47,7 +47,7 @@ table{
   {
   width: 100%;
   height: 100%;
-  background-image: url("images/Слайд2.JPG");
+  background-image: url(images/Слайд2.JPG);
   }
 .card1 {
   display: inline-block;
@@ -140,7 +140,7 @@ h4 {
   {
   width: 100%;
   height: 100%;
-  background-image: url("Слайд3.jpg");
+  background-image: url(images/Слайд3.jpg);
   }
 .card3 {
   display: inline-block;
@@ -198,13 +198,13 @@ h4 {
   {
   width: 100%;
   height: 100%;
-  background-image: url("Слайд4.jpg");
+  background-image: url(images/Слайд4.jpg);
   }
 .blok5
   {
   width: 100%;
   height: 100%;
-  background-image: url("Слайд5.jpg");
+  background-image: url(images/Слайд5.jpg);
   }
 .contacts{
 		border-spacing: 160px 0px;
