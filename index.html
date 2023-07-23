@@ -229,7 +229,7 @@ return false;
 <script>
 if (‘serviceWorker’ in navigator) {
  window.addEventListener(‘load’, function() {  
-   navigator.serviceWorker.register(‘/icons/sw.js’).then(
+   navigator.serviceWorker.register(‘\/icons/sw.js’).then(
      function(registration) {
        // Registration was successful
        console.log(‘ServiceWorker registration successful with scope: ‘, registration.scope); },
@@ -241,14 +241,5 @@ if (‘serviceWorker’ in navigator) {
 }
 </script>
 
-<?php
-/* Подключаемся к базе данных */
-$db=mysqli_connect("localhost", "root","", "Заявки");
-
-/* Выбираем данные */
-$sql="SELECT name, tel, email FROM form_input";
-$result=mysqli_query($db,$sql);
-
-?>
 </body>
 </html>
