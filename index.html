@@ -241,14 +241,5 @@ if (‘serviceWorker’ in navigator) {
 }
 </script>
 
-<?php
-/* Подключаемся к базе данных */
-$db=mysqli_connect("localhost", "root","", "Заявки");
-
-/* Выбираем данные */
-$sql="SELECT name, tel, email FROM form_input";
-$result=mysqli_query($db,$sql);
-
-?>
 </body>
 </html>
