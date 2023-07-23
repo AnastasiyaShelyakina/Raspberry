@@ -1,0 +1,346 @@
+.blok1
+  {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/Слайд1.JPG);
+  }
+
+table{
+	list-style: none;
+	position: absolute;
+	top: 70px;
+	right: 130px;
+	font-size: 1.7rem;
+	border-spacing: 30px 0px;
+}	
+а {
+      text-decoration: none;
+    }
+.button1{
+	background-color: #fff;
+	position: absolute;
+    top: 395px;
+    left: 110px;
+	padding: 15px 32px;
+	border: none;
+	color: #E94E5D;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 26px;
+	border-radius: 16px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	cursor: pointer;
+	font-family:Cormorant;
+	font-style: italic;
+	font-weight: bold;
+}
+.button1:hover {
+    background-color: #E94E5D;
+    color: #fff;
+	font-family:Cormorant;
+	font-style: italic;
+	font-weight: bold;
+}
+.blok2
+  {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/Слайд2.JPG);
+  }
+.card1 {
+  display: inline-block;
+  margin: 180px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: none;
+  background-color: none;
+  border-radius: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.card2 {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: none;
+  background-color: none;
+  border-radius: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.card1 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 16px;
+}
+.card2 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 16px;
+}
+
+h3 {
+	font-size: 30px;
+	color: #E94E5D;
+	font-family: ISOCPEUR;
+	text-align: center;
+}
+
+h4 {
+	font-size: 10px;
+	text-align: center;
+	color: #919191;
+	font-family: Candara Light;
+}
+
+.price {
+	text-decoration: line-through pink;
+	font-size: 1.5rem;
+	text-align: center;
+	font-family: Cormorant
+}
+
+.saleprice {
+	font-size: 1.8rem;
+	text-align: center;
+	font-family: Cormorant;
+}
+
+.contact-btn {
+	background-color: #FBB8C6;
+	position: absolute; 
+	padding: 10px 20px;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 16px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	cursor: pointer;
+	margin-left: 75px;
+}
+
+.contact-btn:hover {
+	background-color: #FBB8C6;
+	color: #E94E5D;
+}
+
+.white {
+	color: white;
+}
+.blok3
+  {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/Слайд3.JPG);
+  }
+.card3 {
+  display: inline-block;
+  margin: 50px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: none;
+  background-color: none;
+  border-radius: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.card3 img {
+  width: 350px;
+  height: 300px;
+  border-radius: 16px;
+}
+
+
+h3 {
+	font-size: 30px;
+	color: #E94E5D;
+	font-family: ISOCPEUR;
+	text-align: center;
+}
+
+h4 {
+	font-size: 10px;
+	text-align: center;
+	color: #000;
+	font-family: Candara Light;
+}
+.contact-btn2 {
+	background-color: #FBB8C6;
+	position: absolute; 
+	padding: 10px 20px;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 16px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	cursor: pointer;
+	margin-left: 110px;
+}
+
+.contact-btn2:hover {
+	background-color: #FBB8C6;
+	color: #E94E5D;
+}
+.blok4
+  {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/Слайд4.JPG);
+  }
+.blok5
+  {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/Слайд5.JPG);
+  }
+.contacts{
+		border-spacing: 160px 0px;
+		font-family: ISOCPEUR;
+		font-size: 24 px;
+		color: #000;
+		margin-left: 630px;
+		margin-bottom: 300 px;
+}
+#contact-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FBB8C6;
+  color: black;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  border: 2px solid black;
+  z-index: 2;
+  box-shadow: 0 10px 15px rgba(0,0,0, .4);
+  height: 650px;
+  width: 720px;
+  
+}
+
+#contact-modal form input {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 240px;
+  width: 33%;
+
+}
+
+#contact-modal form button {
+  margin-top: 10px;
+}
+
+.hh {
+	font-size: 2rem;
+	color: black;
+	text-align: center;
+	font-family: Arial;
+	padding-top: 1px
+}
+
+.close {
+	border: none;
+	background: none;
+	opacity: 0.7;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 2rem;
+}
+
+.close:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.about {
+	font-size: 1.2rem;
+	color: #000;
+	font-family: Arial;
+	
+}
+
+.text {
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+}
+.tel{
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;	
+}
+.email{
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+}
+
+.ok{
+	background-color: #fff;
+	position: absolute;
+    top: 395px;
+    left: 110px;
+	padding: 15px 32px;
+	border: none;
+	color: #E94E5D;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 26px;
+	border-radius: 16px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	cursor: pointer;
+	font-family:Cormorant;
+	font-style: italic;
+	font-weight: bold;
+}
+.ok:hover {
+    background-color: #E94E5D;
+    color: #fff;
+	font-family:Cormorant;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.sogl{
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+
+.podpis{
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+
+.checkbox{
+	width: 20px;
+	height: 20px;
+}
+
+.vk {
+	display: inline-block;
+	margin-top: 238px;
+	font-size: 26px;
+	cursor: pointer;
+}
+
