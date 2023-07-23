@@ -26,6 +26,21 @@ Raspberry
 </head>
 <body>
 
+<script>
+	if (‘serviceWorker’ in navigator) {
+		window.addEventListener(‘load’, function() {
+			navigator.serviceWorker.register('icons/sw.js').then(
+				function(registration) {
+					// Registration was successful
+					console.log(‘ServiceWorker registration successful with scope: ‘, registration.scope); },
+				function(err) {
+					// registration failed :(
+					console.log(‘ServiceWorker registration failed: ‘, err);
+				});
+		});
+	}
+</script>
+
  <div class="blok1">
 
  <table>
@@ -224,21 +239,6 @@ scrollTop: $(id).offset().top - offset
 }, 1000);
 return false;
 }
-</script>
-
-<script>
-	if (‘serviceWorker’ in navigator) {
-		window.addEventListener(‘load’, function() {
-			navigator.serviceWorker.register('images/sw.js').then(
-				function(registration) {
-					// Registration was successful
-					console.log(‘ServiceWorker registration successful with scope: ‘, registration.scope); },
-				function(err) {
-					// registration failed :(
-					console.log(‘ServiceWorker registration failed: ‘, err);
-				});
-		});
-	}
 </script>
 
 </body>
