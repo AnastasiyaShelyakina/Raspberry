@@ -5,6 +5,7 @@ Raspberry
 </title>
 <link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="script.js"></script>
 <script src="app.js"></script>
 <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
@@ -223,21 +224,6 @@ $('html, body').animate({
 scrollTop: $(id).offset().top - offset
 }, 1000);
 return false;
-}
-</script>
-
-<script>
-if (‘serviceWorker’ in navigator) {
-	window.addEventListener(‘load’, function() {
-		navigator.serviceWorker.register(‘sw.js’).then(
-			function(registration) {
-				// Registration was successful
-				console.log(‘ServiceWorker registration successful with scope: ‘, registration.scope); },
-			function(err) {
-				// registration failed :(
-				console.log(‘ServiceWorker registration failed: ‘, err);
-			});
-	});
 }
 </script>
 
