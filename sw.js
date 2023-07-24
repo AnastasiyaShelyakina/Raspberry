@@ -3,7 +3,8 @@ var CURRENT_CACHES = {
     css:'style.css',
     js:'script.js',
     site: 'index.html',
-    image: 'images'
+    image: 'images',
+    script: 'sw-toolbox.js'
 };
 
 self.addEventListener('install', (event) => {
