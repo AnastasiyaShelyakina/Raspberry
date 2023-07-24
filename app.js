@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
   var contactButtons = document.getElementsByClassName('contact-btn');
-  
   var modal = document.getElementById('contact-modal');
   var closeButtons = document.getElementsByClassName('close');
 
@@ -22,18 +21,18 @@ document.addEventListener('DOMContentLoaded', function () {
       modal.style.display = "none";
     }
   };
-  
- $(".phone").mask("+7(999)999-99-99");
-});
 
+  $(".phone").mask("+7(999)999-99-99");
+
+});
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
   event.preventDefault(); // Предотвращаем отправку формы по умолчанию
-  
+
   // Получаем значения полей формы
   var nameInput = document.getElementById('name-input').value;
   var phoneInput = document.getElementById('phone-input').value;
-  
+
   // Отправка данных на сервер
   // Здесь можно добавить код для обработки отправки данных на сервер
 });
