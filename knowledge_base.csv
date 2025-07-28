@@ -1,0 +1,5 @@
+категория,запрос,решение,ссылка
+ИТ,не работает Outlook,"Перезапустите Outlook, проверьте VPN.",https://intra.company.local/it/outlook
+HR,как оформить отпуск,Заполните заявление в личном кабинете.,https://intra.company.local/hr/otpusk
+ИТ,как подключиться к VPN,Используйте Cisco AnyConnect и введите логин.,https://intra.company.local/it/vpn
+HR,где найти справку 2-НДФЛ,Закажите в 1С или запросите в HR-отделе.,https://intra.company.local/hr/spravki
