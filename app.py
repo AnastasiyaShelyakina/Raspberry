@@ -25,13 +25,15 @@ client = OpenAI(
 )
 
 try:
-    models = client.models.list()
-    print([m.id for m in models.data])
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "user", "content": "Привет!"},
+        ]
+    )
+    print("✅ Всё работает:", response.choices[0].message.content)
 except Exception as e:
-    print("❌ Ошибка при подключении к OpenAI:", e)
-@st.cache_data
-def load_kb():
-    return pd.read_csv("knowledge_base.csv")
+    print("❌ Ошибка:", e)
 
 # 🔎 Поиск в базе знаний
 def find_in_kb(query, kb):
