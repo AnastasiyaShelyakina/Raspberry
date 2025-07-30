@@ -19,9 +19,12 @@ from openai import OpenAI
 #client = OpenAI(api_key="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")
 # 📥 Загрузка базы знаний
 
+
+
 client = OpenAI(
-    api_key="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",  # 🔐 Подставь свой ключ
+    api_key="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",  # 🔐 Подставь свой ключ
     
+    organization="org-EwZWZiBPUovKcwUHIm31rarb"  # ← твой Organization ID с https://platform.openai.com/account/org-settings
 )
 
 try:
