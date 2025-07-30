@@ -22,7 +22,7 @@ from openai import OpenAI
 
 
 client = OpenAI(
-    api_key="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",  # 🔐 Подставь свой ключ
+    api_key="ssk-svcacct-DUjpPKdvNN24axxROAkh3-ZWlZU2HAARLmQ-D98h2IXvp4wUHldo_xI_zZrWypU5xVS4dAv466T3BlbkFJJ-Ck_40AaDd-WwoAJL5v630_E6eFZ6xG4cXp3kvDNTxQCc6zloFZq0koPcHvM6LcdHFitPUyQA",  # 🔐 Подставь свой ключ
     
     organization="org-EwZWZiBPUovKcwUHIm31rarb"  # ← твой Organization ID с https://platform.openai.com/account/org-settings
 )
