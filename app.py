@@ -32,7 +32,7 @@ def find_in_kb(query, kb):
 
 # 📖 Загрузка системного prompt-а
 def get_system_prompt():
-    with open("prompts/system_prompt.txt", encoding="utf-8") as f:
+    with open("system_prompt.txt", encoding="utf-8") as f:
         return f.read()
 
 # 📋 Лог нестандартных запросов
