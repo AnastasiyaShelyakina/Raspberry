@@ -8,7 +8,6 @@ Original file is located at
 """
 
 import streamlit as st
-import openai
 import pandas as pd
 import json
 import os
@@ -17,8 +16,19 @@ from openai import OpenAI
 
 # 🔐 Вставь свой API-ключ OpenAI
 #openai.api_key = "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"
-client = OpenAI(api_key="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")
+#client = OpenAI(api_key="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")
 # 📥 Загрузка базы знаний
+
+client = OpenAI(
+    api_key="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",  # 🔐 Подставь свой ключ
+    
+)
+
+try:
+    models = client.models.list()
+    print([m.id for m in models.data])
+except Exception as e:
+    print("❌ Ошибка при подключении к OpenAI:", e)
 @st.cache_data
 def load_kb():
     return pd.read_csv("knowledge_base.csv")
