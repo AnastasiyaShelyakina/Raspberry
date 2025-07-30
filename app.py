@@ -34,7 +34,10 @@ try:
     print("✅ Всё работает:", response.choices[0].message.content)
 except Exception as e:
     print("❌ Ошибка:", e)
-
+# 📥 Загрузка базы знаний
+@st.cache_data
+def load_kb():
+    return pd.read_csv("knowledge_base.csv")
 # 🔎 Поиск в базе знаний
 def find_in_kb(query, kb):
     for _, row in kb.iterrows():
